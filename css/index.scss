@@ -1,0 +1,55 @@
+
+header {
+
+  /*导航*/
+  nav {
+    //z-index: 999;
+    height: 86px;
+    background-color: #30394D;
+    img {
+      padding: 20px 0 0 30px;
+      width: 80%;
+    }
+    ul {
+      margin: auto;
+      a {
+        font-size: 1.5rem;
+        line-height: 86px;
+      }
+    }
+  }
+
+
+}
+
+main {
+  .card-content {
+    padding: 12px !important;
+  }
+  .tplp {
+    .indicators {
+      z-index: 9;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+  }
+  .slider {
+    .slides {
+      background-color: #30394D !important;
+      li img{
+        margin-top: 30px;
+        max-width: 337px;
+        height: 250px;
+
+      }
+    }
+  }
+  .home-color {
+    background-color: #30394D !important;
+  }
+}
+
+.page-footer {
+  background-color: #30394D !important;
+}
+

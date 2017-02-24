@@ -1,0 +1,34 @@
+@charset "UTF-8";
+header {
+  /*瀵艰埅*/ }
+  header nav {
+    height: 86px;
+    background-color: #30394D; }
+    header nav img {
+      padding: 20px 0 0 30px;
+      width: 80%; }
+    header nav ul {
+      margin: auto; }
+      header nav ul a {
+        font-size: 1.5rem;
+        line-height: 86px; }
+
+main .card-content {
+  padding: 12px !important; }
+main .tplp .indicators {
+  z-index: 9;
+  text-align: center;
+  margin-bottom: 50px; }
+main .slider .slides {
+  background-color: #30394D !important; }
+  main .slider .slides li img {
+    margin-top: 30px;
+    max-width: 337px;
+    height: 250px; }
+main .home-color {
+  background-color: #30394D !important; }
+
+.page-footer {
+  background-color: #30394D !important; }
+
+/*# sourceMappingURL=index.css.map */
