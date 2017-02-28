@@ -19,13 +19,23 @@ header {
     }
   }
 
-
 }
 
 main {
-  .card-content {
-    padding: 12px !important;
+  .card{
+    .card-content {
+      padding: 12px !important;
+      height: 160px;
+      p{
+        height: 128px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: pre-line;
+      }
+    }
   }
+
+
   .tplp {
     .indicators {
       z-index: 9;
@@ -36,7 +46,7 @@ main {
   .slider {
     .slides {
       background-color: #30394D !important;
-      li img{
+      li img {
         margin-top: 30px;
         max-width: 337px;
         height: 250px;

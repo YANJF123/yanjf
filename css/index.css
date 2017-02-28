@@ -13,8 +13,14 @@ header {
         font-size: 1.5rem;
         line-height: 86px; }
 
-main .card-content {
-  padding: 12px !important; }
+main .card .card-content {
+  padding: 12px !important;
+  height: 160px; }
+  main .card .card-content p {
+    height: 128px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-line; }
 main .tplp .indicators {
   z-index: 9;
   text-align: center;
