@@ -13,10 +13,10 @@ header {
         font-size: 1.5rem;
         line-height: 86px; }
 
-main .card .card-content {
+main #grah .card .card-content {
   padding: 12px !important;
   height: 160px; }
-  main .card .card-content p {
+  main #grah .card .card-content p {
     height: 128px;
     overflow: hidden;
     text-overflow: ellipsis;
