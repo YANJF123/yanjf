@@ -1,4 +1,27 @@
 header {
+  .navbar-fixed {
+    position: relative;
+    height: 86px;
+    z-index: 997;
+  }
+
+  .navbar-fixed nav {
+    position: fixed;
+  }
+
+  @media only screen and (min-width: 601px) {
+    nav.nav-extended .nav-wrapper {
+      min-height: 86px;
+    }
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+      height: 86px;
+      line-height: 86px;
+    }
+    .navbar-fixed {
+      height: 86px;
+    }
+  }
+
   /*导航*/
   nav {
     //z-index: 999;
@@ -17,35 +40,49 @@ header {
     }
   }
 }
+
 main {
-#grah{
-  .card{
-    .card-content {
-      padding: 12px !important;
-      height: 160px;
-      p{
-        height: 128px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: pre-line;
+  .row .col {
+    float: left;
+    box-sizing: border-box;
+    /* padding: 0 0.75rem; */
+    /* min-height: 1px; */
+    width: 0;
+  }
+
+
+  #grah {
+    .card {
+      .card-content {
+        padding: 12px !important;
+        height: 160px;
+        p {
+          height: 128px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: pre-line;
+        }
       }
     }
   }
-}
-  .tplp {
+  .slider {
     .indicators {
       z-index: 9;
       text-align: center;
-      margin-bottom: 50px;
+      margin-bottom:30px;
+
     }
-  }
-  .slider {
     .slides {
       background-color: #30394D !important;
       li img {
         margin-top: 30px;
         max-width: 337px;
         height: 250px;
+      }
+      li .caption {
+        top:5%;
+        left:10%;
+        width: 80%;
 
       }
     }
@@ -53,7 +90,18 @@ main {
   .home-color {
     background-color: #30394D !important;
   }
+  .card-panel {
+    padding-top: 10px;
+    span {
+      h4 {
+        color: #30394D !important;
+        font-weight: 900;
+      }
+    }
+
+  }
 }
+
 .page-footer {
   background-color: #30394D !important;
 }
